@@ -1,0 +1,22 @@
+{
+  "catalog": [
+    {
+      "id": 1,
+      "title": "",
+      "description": "",
+      "author": "",
+      "genre": "",
+      "price": 44.95,
+      "published_date": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "description": "",
+      "author": "",
+      "genre": "",
+      "price": 44.95,
+      "published_date": ""
+    }
+  ]
+}
