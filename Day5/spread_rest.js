@@ -1,37 +1,8 @@
-// VANILLA JAVASCRIPT
-// ECMA SCRIPT (ES)
-// ES5 AND ES6
-
-// var vs let vs const
-var nama;
-let age;
-const email = 10; // constant
-
-console.log(nama, age, email);
-
-nama = "Vishnu"; // Initialize
-age = 26; // Initialize
-
-console.log(nama, age);
-
-nama = "Vishnu Vardhan"; // Re-Initialize
-age = 27; // Re-Initialize
-
-console.log(nama, age);
-
-function dummy() {
-  const nama = "Roshan";
-  console.log(nama);
-}
-dummy();
-
-console.log(nama);
-
 /**
  * Spread and Rest Operator
  */
-// 1. Spread Operator (...)
 
+// 1. Spread Operator (...)
 // How to copy an array inside another array
 var arr = [1, 2, 3, 4, 5];
 var arrCopy = [];
