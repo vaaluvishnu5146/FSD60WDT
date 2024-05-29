@@ -4,7 +4,7 @@
 var [a, b, c] = ["Vishnu", "Vardhan", 26];
 console.log(a, b, c);
 
-var { firstName, lastName, ages } = {
+var data = {
   firstName: "Vishnu",
   lastName: "Vardhan",
   ages: 26,
