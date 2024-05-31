@@ -9,7 +9,7 @@ points.forEach((element) => {
 console.log(sum);
 
 /**
- * Using reducer() calculate totalPoints
+ * Using reduce() calculate totalPoints
  */
 var points = [10, 2, 3, 10, 7, 9, 4];
 var totalPoints = points.reduce((prev, curr) => prev + curr);
