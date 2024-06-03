@@ -1,0 +1,61 @@
+What is HTML?
+
+HTML stands for Hyper Text Markup language. This language help us to build semantics of the website. For example: Adding Button, Radio and checkboxes, Table, Dropdown, Layouts etc.
+
+HTML Tags Types:
+
+1. Container tags
+2. Self closing tags
+
+Basic HTML tags:
+
+1. Div
+2. Section
+3. Main
+4. Html
+5. Head
+6. Body
+7. Span
+8. Header
+9. Footer
+10. Anchor - a
+
+Container Tags:
+A container tags will helps us to wrap and contain multiple other elements inside it.
+
+Example:
+
+1. Html
+2. Head
+3. Body
+4. Div
+5. Section
+6. Span
+7. Header
+8. Footer
+
+Self closing tags or HTML Elements:
+HTML Elements are tags that help us to get user input in the form of text or color or boolean or MCQ or Range.
+
+Examples:
+
+1. Input - Text, Password, Date, Time, Checkbox, Radio, Range, Color
+2. Select - Dropdown
+3. Textarea - Textbox
+
+Basic Page Syntax:
+
+<html>
+<head>
+ // For configuration
+</head>
+<body>
+// Adding all elements
+// Layouts
+</body>
+</html>
+
+Based on Semantics, tags are of two different types:
+
+1. Semantic - If we can understand the base meaning of that tag name its semantic
+2. Non-Semantic - Else non-semantic
