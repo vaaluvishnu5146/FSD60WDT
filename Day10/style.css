@@ -1,0 +1,22 @@
+body {
+  height: 1000px;
+}
+
+.square {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  background-color: aquamarine;
+  padding: 10px 0 0 10px;
+}
+
+.circle {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}

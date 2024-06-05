@@ -72,9 +72,27 @@ button {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+button:active {
+  outline: 2px solid rgba(36, 44, 113, 0.557);
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #2f43f9;
+}
+
 input:focus {
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   outline: none;
+}
+
+input:active {
+  border: 2px solid #0016df;
+}
+
+a:visited {
+  color: brown;
 }
 
 .registerLink {
@@ -85,7 +103,7 @@ input:focus {
 #square {
   width: 100px;
   height: 100px;
-  background: red;
+  background: green;
 }
 
 /* CLASS */
@@ -94,8 +112,13 @@ input:focus {
   height: 100px;
 }
 
+.square:hover,
+#square:hover {
+  background: yellow;
+}
+
 .green {
-  background: lightgreen !important;
+  background: lightgreen;
 }
 
 .red {
