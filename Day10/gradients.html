@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradients</title>
+    <style>
+      .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: lightgreen;
+      }
+
+      .pinky {
+        background-image: linear-gradient(
+          90deg,
+          #ff9a9e 0%,
+          #fad0c4 99%,
+          #fad0c4 100%
+        );
+        font-size: 72px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="pinky" style="color: transparent">Hey guys!!</h1>
+  </body>
+</html>

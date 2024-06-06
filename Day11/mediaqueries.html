@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <style>
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background: lightgreen;
+      }
+
+      .deck {
+        width: 100%;
+        height: 500px;
+        background: greenyellow;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 10px;
+      }
+      .card {
+        width: 24%;
+        height: 100px;
+        background: red;
+        border: 1px solid black;
+        box-sizing: border-box;
+      }
+
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+        html {
+          background: lightcoral;
+        }
+
+        .deck {
+          flex-direction: column;
+        }
+
+        .card {
+          width: 100%;
+        }
+      }
+
+      @media screen and (min-width: 481px) and (max-width: 768px) {
+        html {
+          background: lightgoldenrodyellow;
+        }
+
+        .deck {
+          flex-direction: column;
+        }
+
+        .card {
+          width: 100%;
+          background: blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="deck">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+  </body>
+</html>
